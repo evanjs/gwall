@@ -1,0 +1,10 @@
+[package]
+name = "wape"
+version = "0.1.0"
+authors = ["Evan Stoll <evanjsx@gmail.com>"]
+edition = "2018"
+license = "MIT"
+
+[dependencies]
+select = "0.4.2"
+reqwest = "0.9.5"
