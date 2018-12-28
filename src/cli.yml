@@ -1,0 +1,24 @@
+name: wape
+version: "1.0"
+author: Evan Stoll <evanjsx@gmail.com>
+about: Downloads wallpapers from (currently only) wallpapers-wide
+args:
+- site:
+    short: s
+    long: site
+    value_name: SITE
+    help: The website to query for the given wallpaper
+    takes_value: true
+- paper:
+    short: p
+    long: paper
+    value_name: PAPER
+    help: The URL of the wallpaper to download
+    takes_value: true
+- sizes:
+    short: z
+    long: sizes
+    value_name: SIZES
+    help: A list of sizes to download
+    takes_value: true
+    multiple: true
