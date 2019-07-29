@@ -1,7 +1,7 @@
-name: wape
+name: gwall
 version: "1.0"
 author: Evan Stoll <evanjsx@gmail.com>
-about: Downloads wallpapers from (currently only) wallpapers-wide
+about: Downloads wallpapers from a wallpaper site.  Currently only supports wallpaperswide
 args:
 - site:
     short: s
@@ -15,6 +15,7 @@ args:
     value_name: PAPER
     help: The URL of the wallpaper to download
     takes_value: true
+    index: 1
 - sizes:
     short: z
     long: sizes

@@ -1,18 +1,23 @@
 [package]
-name = "wape"
+name = "gwall"
 version = "0.1.0"
 authors = ["Evan Stoll <evanjsx@gmail.com>"]
 edition = "2018"
 license = "MIT"
 
 [dependencies]
-select = "0.4.2"
-reqwest = "0.9.5"
-clap = { version = "2.32.0", features = [ "yaml" ]}
+reqwest = "0.9.8"
+clap = { version = "2.32.0", features = [ "yaml" ] }
 envy = "0.3.3"
 dotenv = "0.13.0"
 log = "0.4.6"
 env_logger = "0.6.0"
-serde = "1.0.82"
-serde_derive = "1.0.82"
+serde = "1.0.84"
+serde_derive = "1.0.84"
 rayon = "1.0.3"
+url = "1.7.2"
+url_serde = "0.2.0"
+failure = "0.1.5"
+kuchiki = "0.7.2"
+tendril = "0.4.1"
+directories = "2.0.2"
