@@ -19,7 +19,7 @@ fn default_sizes() -> Vec<String> {
 
 fn default_wallpaper_directory() -> PathBuf {
     if let Some(user_dirs) = UserDirs::new() {
-        Path::join(user_dirs.picture_dir().expect("aaa"), "Wallpapers")
+        Path::join(user_dirs.picture_dir().expect("Failed to find picture directory"), "Wallpapers")
     } else {
         todo!("Check for user configured path here");
     }
